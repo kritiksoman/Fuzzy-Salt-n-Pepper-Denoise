@@ -1,6 +1,6 @@
 close all;clear;clc;
 tic;
-%% Read image and Inialization 
+%% Read image and Initialization 
 input_image=imread('Lenna.png');
 im_gray=rgb2gray(input_image);
 im_gray_1=im2double(im_gray);
